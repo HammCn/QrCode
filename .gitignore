@@ -1,24 +1,15 @@
-# Hugo default output directory
-/public
-
-# Serverless config
 node_modules
 .serverless
 
-## OS Files
-# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# OSX
 .DS_Store
 
-# env config
-.env
-
-dist
-worker
 
 .wrangler
+
+package-lock.json
+yarn.lock
